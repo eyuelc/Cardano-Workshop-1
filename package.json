@@ -1,0 +1,14 @@
+{
+  "name": "cardano-wallet",
+  "version": "1.0.0",
+  "description": "Cardano wallet with seed phrase generation, address creation and transaction sending",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@emurgo/cardano-serialization-lib-asmjs": "^11.2.0",
+    "bip39": "^3.1.0",
+    "dotenv": "^16.3.1"
+  }
+}
